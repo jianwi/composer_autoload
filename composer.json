@@ -1,0 +1,25 @@
+{
+  "name": "vendor_name/diy_laravel",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "DuJianjun",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    },
+    "psr-0": {
+      "Bpp\\": "bpp"
+    },
+    "files": [],
+    "classmap": ["classes"]
+  }
+}
